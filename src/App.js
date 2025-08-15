@@ -113,7 +113,7 @@ But the return from the first run only runs because city changed for the second 
         <button className="search" onClick={fetchData}>Search</button>
       </div>
       {
-        showLoading && <p>Loading data…</p>
+        showLoading && <p>Loading data...</p>
       }
       { show && <div className="weather-cards">
         {attribute.map((item) => (
